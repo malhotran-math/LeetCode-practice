@@ -7,6 +7,8 @@ class Solution:
     #     return med 
     #The obove is a naive O((m+n)log(m+n)) code. faster one below. 
 
+        #The following is O(log(m+n)).
+
         def get_kth_element(k):
             i = j = 0
             while True:
